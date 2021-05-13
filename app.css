@@ -1,10 +1,11 @@
 html {
-
+  height: 100vh;
 }
 
 body {
     background-color: whitesmoke;
     margin: 0px;
+    height: 100vh;
 }
 
 nav {
@@ -14,28 +15,18 @@ nav {
 html, body {
     height: 100%;
   }
-  
-  #wrap {
-    min-height: 100%;
-  }
-  
-  #main {
-    overflow:auto;
-    padding-bottom:150px; 
-  }
-  
-  .footer {
-    position: relative;
-    margin-top: -150px; 
-    height: 150px;
-    clear:both;
-    padding-top:20px;
-  }
 
 div div a {
     font-size: 1.2em;
     text-decoration: none;
     color: black;
     transition: all 250ms;
+}
+
+main {
+  min-height: 91vh;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
 }
 
