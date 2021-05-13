@@ -8,10 +8,6 @@ body {
     height: 100vh;
 }
 
-#navBrand {
-  text-transform: uppercase;
-}
-
 html, body {
     height: 100%;
   }
@@ -30,6 +26,3 @@ main {
   margin: 0 auto -60px;
 }
 
-#col {
-  text-decoration: none;
-}
